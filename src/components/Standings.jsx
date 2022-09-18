@@ -9,22 +9,12 @@ const Standings = () => {
   const [selectedYear, setSelectedYear] = useState("2021");
   const [data, setData] = useState([]);
 
-//   const url = `https://soccer.sportmonks.com/api/v2.0/standings/season/19735?api_token=zwG26NmkG1HhOvrlE9tg27BkVsU4NrPfqP9vstcooebPBF944RlUE9TsThUG`
-
-//   useEffect(() => {
-//     axios(url).then((response) => {
-//       console.log(response.data.data[0].standings.data);
-//       setData(response.data.data[0].standings.data.map(item => item))
-      
-//     }).catch((error) => console.log(error))
-//   }, []);
-
 const url = `https://api.football-data.org/v2/competitions/2021/standings?standingType=TOTAL`
 
 useEffect(() => {
     axios.get(url, {
         headers: {
-            "X-Auth-Token" : "7e787d04a5c645989d00d5b830bbaeea"
+            "X-Auth-Token" : "**************************************************"
         }
     })
         .then(response => {
