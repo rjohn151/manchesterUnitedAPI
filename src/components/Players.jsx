@@ -18,7 +18,7 @@ const Players = () => {
         let cancel;
         axios.get(currentPageUrl, {
             headers: {
-                "X-RapidAPI-Key" : "ed5f66bf66msh3195b0687e916c5p11ad30jsndeaa1680f030",
+                "X-RapidAPI-Key" : "**************************************************",
                 "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
             },
             params: {
