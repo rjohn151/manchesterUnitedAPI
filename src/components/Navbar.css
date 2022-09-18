@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #C70101;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar > ul > li {
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img{
+    width: 100px;
+}

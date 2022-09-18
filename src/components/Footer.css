@@ -1,0 +1,28 @@
+.footer {
+    color: black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a{
+    margin: 0 0.5rem;
+}
+
+.social-icons .github{
+    color: #24292E;
+}
+.social-icons .facebook{
+    color: #1778F2;
+}
+.social-icons .instagram{
+    color: #E1306C;
+}
+.social-icons .linkedin{
+    color: #0B65C2;
+}
+

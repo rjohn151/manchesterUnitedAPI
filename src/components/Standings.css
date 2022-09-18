@@ -1,0 +1,16 @@
+.standings{
+    text-align: center;
+}
+
+.standings-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.standings-title{
+    color: black;
+    font-size: 40px;
+}

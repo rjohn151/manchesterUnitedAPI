@@ -1,0 +1,65 @@
+/* .each-player {
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background: #1A1A1A;
+    border-radius: 8px;
+} */
+
+.players-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* .each {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    /* background-color: #1A1A1A; */
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    /* flex-grow: 1; */
+}
+
+/* .each {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+} */
+
+.players-title{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* body{
+    background: #F8F8F8;
+} */
+
+/* .player-img{
+    width: 70%;
+} */

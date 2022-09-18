@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Navbar from './components/Navbar';
+import Players from './components/Players';
+import Standings from './components/Standings';
+import Fixtures from './components/Fixtures';
+import Stadium from './components/Stadium';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // npm i react-router-dom
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Router>
+      <div className="App">
+        <Navbar />
+          <Routes>
+            {/* <Route path='/' element={<HistoryDB />}></Route> */}
+            <Route path='standings' element={<Standings />}></Route>
+            <Route path='players' element={<Players />}></Route>
+            <Route path='fixtures' element={<Fixtures />}></Route>
+            <Route path='stadium' element={<Stadium />}></Route>
+          </Routes>
+        
+        <Footer />
+      </div>
+    </Router>
+
+    // <div className="App">
+    //   <Navbar/>
+    //   <Players />
+    // </div>
   );
 }
 

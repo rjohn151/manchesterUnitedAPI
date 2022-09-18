@@ -1,0 +1,19 @@
+.fixtures{
+    text-align: center;
+}
+
+.vs{
+    width: 50px;
+}
+
+.fixture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
